@@ -1,4 +1,4 @@
-import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaGithub } from 'react-icons/fa';
 import Styles from './SocialsBar.module.css';
 
 const ICON_SIZE = 36;

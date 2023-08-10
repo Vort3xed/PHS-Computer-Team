@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Styles from './association.module.css';
 import BottomGlitter from '../StyledText/BottomGlitter';
-import AffiliatesData from '../../lib/data/AffiliationsData.js';
+import AffiliatesData from '../../lib/data/AffiliationsData';
 
 function Associations() {
   return (
@@ -13,7 +13,7 @@ function Associations() {
       <div className={Styles.associationContainer}>
         <div className={Styles.associationMenuContainer}>
           <div className={Styles.associationMenu}>
-            {AffiliatesData.map((item, index) => {
+            {AffiliatesData.map((item) => {
               return(
                 <div className={Styles.associationMenuItem}>
                   <a href={item.title}>

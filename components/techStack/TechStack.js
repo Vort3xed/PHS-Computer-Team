@@ -114,7 +114,7 @@ function Learn() {
           <div className={Styles.content}>
             <h2>Blair3 Sat</h2>
             <p>
-              Help develop a satellite that will be launched into space to collect data on the Earth's atmosphere.
+              Help develop a satellite that will be launched into space to collect data on the Earth&apos;s atmosphere.
             </p>
           </div>
           <div className={Styles.content}>
@@ -155,7 +155,7 @@ function Code() {
       </div>
       <div className={`${Styles.col} ${Styles.col60}`}>
         <div className={Styles.headDescription}>
-          Now that we've given you the skills to succeed, its time for you to show them
+          Now that we&apos;ve given you the skills to succeed, its time for you to show them
           off and compete in competitions. We offer a variety of competitions for you to
           compete in.
         </div>

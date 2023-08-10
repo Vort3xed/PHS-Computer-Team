@@ -1,9 +1,7 @@
 import Head from 'next/head';
-import { useRef, useState } from 'react';
-import Screen from '../components/screen/Screen';
 import Link from 'next/link';
-import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
-import Styles from '../components/navbar/Navbar.module.css';
+import Screen from '../components/screen/Screen';
+
 
 function ContactUs() {
   return (
@@ -24,7 +22,7 @@ function ContactUs() {
           <div className="mt-28 mb-12 pt-10 pb-8 sm:mt-20 sm:mb-10">
             <h1 className="text-7xl sm:text-5xl">
               Interested?<br />
-              Let's talk!
+              Let&apos;s talk!
             </h1>
 
             <div className='m-2'>
@@ -43,7 +41,7 @@ function ContactUs() {
             </div>
           </div>
           <div className='md:hidden'>
-            <img class="w-full lg:inset-y-0 lg:left-0 lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt=""></img>
+            <img className="w-full lg:inset-y-0 lg:left-0 lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt=""/>
           </div>
         </div>
       </section>

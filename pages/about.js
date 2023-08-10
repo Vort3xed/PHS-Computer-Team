@@ -27,7 +27,7 @@ function About() {
             The PHS Computer Team is a club at Poolesville High School that is dedicated to teaching students about every aspect of computer science.
           We are a group of students who are passionate about computer science and want to share our knowledge with others. We teach students about 
           a variety of topics, including cyber security, competitive programming, and machine learning. We also participate in several competitions, including 
-          the American Computer Science League (ACSL), AFA's CyberPatriot competition, USA Coding Olympiad (USACO).
+          the American Computer Science League (ACSL), AFA&apos;s CyberPatriot competition, USA Coding Olympiad (USACO).
             </p>
           </div>
         </div>
