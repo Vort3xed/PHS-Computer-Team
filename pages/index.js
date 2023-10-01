@@ -7,6 +7,7 @@ import Screen from '../components/screen/Screen';
 import Sponsors from '../components/sponsors/Sponsors';
 import TechStack from '../components/techStack/TechStack';
 import Video from '../components/video/Video';
+import BasicGridImages from '@/components/gridGallery/BasicGridImages';
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <Video />
       <HomeAbout />
       <TechStack />
-      <GridGallery />
+      <BasicGridImages />
       <Sponsors />
       <Associations />
     </Screen>

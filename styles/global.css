@@ -108,10 +108,9 @@ a {
 }
 
 .cursor {
-  background: #EFAE04;
-  /* background-image: url('/affiliates/cyberlab.jpg'); */
+  /* background: #EFAE04;
   transform: translate(-50%, -50%);
   @apply h-[10px] w-[10px] fixed top-0 left-0 z-[9999999] pointer-events-none rounded-2xl;
   transition: all 0.15s ease;
-  @apply md:hidden;
+  @apply md:hidden; */
 }

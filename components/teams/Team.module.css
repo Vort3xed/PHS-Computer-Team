@@ -1,7 +1,20 @@
 .card {
   @apply p-4 relative flex flex-col justify-center items-center overflow-hidden rounded-2xl;
   min-height: 350px;
-  background: rgb(0, 204, 255);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    #EFAE04 0%,
+    #ef4704 100%
+  );
+  transition: all 300ms ease-in-out;
+}
+
+.medCard {
+  @apply p-4 relative flex flex-col justify-center items-center overflow-hidden rounded-2xl;
+  min-height: 350px;
+  max-width: 400px;
+  background: rgb(0, 0, 0);
   background: linear-gradient(
     45deg,
     #EFAE04 0%,
@@ -15,7 +28,16 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.medCardContainer {
+  @apply grid gap-16;
+  grid-template-columns: 400px 400px
+}
+
 .cardContainer .card:hover {
+  @apply scale-[1.06] opacity-100;
+}
+
+.medCardContainer .medCard:hover {
   @apply scale-[1.06] opacity-100;
 }
 
@@ -28,11 +50,31 @@
   opacity: 0;
 }
 
+.medCard::before {
+  @apply absolute w-32;
+  content: '';
+  background: linear-gradient(#eeb764, #ecc589);
+  animation: animate 4s linear infinite;
+  height: 140%;
+  opacity: 0;
+}
+
 .card:hover::before {
   opacity: 1;
 }
 
+.medCard:hover::before {
+  opacity: 1;
+}
+
 .card::after {
+  @apply absolute rounded-2xl;
+  content: '';
+  inset: 4px;
+  background-color: #000;
+}
+
+.medCard::after {
   @apply absolute rounded-2xl;
   content: '';
   inset: 4px;
