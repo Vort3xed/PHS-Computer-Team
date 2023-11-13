@@ -1,8 +1,8 @@
 import Head from 'next/head';
 // import Events from '../components/event/Events';
+// import TextUnit from '@/components/textComponent/TextUnit';
 import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
-import TextUnit from '@/components/textComponent/TextUnit';
 
 function About() {
   return (
@@ -42,7 +42,7 @@ function About() {
           </div>
         </div>
 
-        <div className="mt-12 mb-6 sm:mt-8 sm:mb-4">
+        {/* <div className="mt-12 mb-6 sm:mt-8 sm:mb-4">
           <BottomGlitter text="Subclub Descriptions" />
 
           <TextUnit
@@ -50,7 +50,7 @@ function About() {
             subheader="Monday, First Half of Lunch"
             text="the ml club is great ngl"
           />
-        </div>
+        </div> */}
 
         {/* <Events /> */}
       </section>

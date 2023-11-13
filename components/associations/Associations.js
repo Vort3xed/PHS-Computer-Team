@@ -49,7 +49,7 @@ function Associations() {
           <Content id="MontBlair">
             <h2>Montgomery Blair Satellite Team</h2>
             <p>
-            Montgomery Blair's branch of the satellite project. The Poolesville branch emerged from the Montgomery
+            Montgomery Blair&apos;s branch of the satellite project. The Poolesville branch emerged from the Montgomery
             Blair branch.
             </p>
           </Content>

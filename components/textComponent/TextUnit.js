@@ -12,7 +12,6 @@ function TextUnit({ header, subheader, text }){
       <h3 className={`text-xl font-bold ${styles.header}`}>{header}</h3>
       <h2 className={`text-lg font-semibold text-gray-700 ${styles.subheader}`}>{subheader}</h2>
       <p className={`text-gray-600 ${styles.text}`}>{text}</p>
-      <canvas id="gradient-canvas" className={''} data-transition-in ></canvas>
     </div>
   );
 };
