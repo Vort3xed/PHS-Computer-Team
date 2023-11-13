@@ -1,16 +1,17 @@
-import Link from 'next/link';
-import BottomGlitter from '../StyledText/BottomGlitter';
+// import Link from 'next/link';
+// import BottomGlitter from '../StyledText/BottomGlitter';
+// import Sponsors from '../sponsors/Sponsors';
 import Styles from './Footer.module.css';
 
 function Footer() {
   return (
     <footer className={`${Styles.footer} container-70`}>
-      <div className="py-12 mt-20 sm:mt-4 md:mt-12">
-        {/* <h4 className="text-2xl mb-10 pl-3">Contacts</h4> */}
+      {/* <div className="py-12 mt-20 sm:mt-4 md:mt-12">
+        <h4 className="text-2xl mb-10 pl-3">Contacts</h4>
         <BottomGlitter text="Get In Touch" />
-      </div>
+      </div> */}
 
-      <div className={Styles.linksContainer}>
+      {/* <div className={Styles.linksContainer}>
         <div className="flex-2 md:flex-1">
           <div className="mb-3 flex flex-col">
             <h3 className="text-2xl">Email</h3>
@@ -57,7 +58,8 @@ function Footer() {
             </a>
           </Link>
         </div>
-      </div>
+      </div> */}
+      {/* <Sponsors /> */}
 
       <div className={Styles.copyrightBottom}>
         <h6>

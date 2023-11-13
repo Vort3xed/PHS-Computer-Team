@@ -32,41 +32,25 @@ function Associations() {
         </div>
         <div className={Styles.associationContentContainer}>
           <Content id="Physics">
-            <h2>Physics Team</h2>
+            <h2>PHS Physics Team</h2>
             <p>
-            Learn topics in physics that are not taught in school and compete
-            in competitions such as the Physics Bowl and the Physics Olympiad.
+            A club for students that are passionate about Physics, and seek knowledge about concepts that aren&apos;t 
+            offered in traditional physics classes. Physics team represents Poolesville High School in the Physics 
+            Bowl and the Physics Olympiad competitions.
             </p>
           </Content>
-          <Content id="CyberLab">
-            <h2>PHS Cyber Lab</h2>
+          <Content id="WebDev">
+            <h2>PHS Web Development Club</h2>
             <p>
-            Through hands on experiments and labs, this club teaches students 
-            about the basics of cybersecurity and how to protect themselves and 
-            others online.
+            Not to be confused with the PHS Computer Team Web Dev sub-club, the PHS Web Development Club is an 
+            independent club that specializes in project-based learning of web design and development.
             </p>
           </Content>
-          <Content id="MLClub">
-            <h2>ML Club</h2>
+          <Content id="MontBlair">
+            <h2>Montgomery Blair Satellite Team</h2>
             <p>
-            A club designed to teach students about machine learning and how 
-            to use it to solve real world problems. Using Python, students learn 
-            about the basics of machine learning and how to use it to solve real 
-            world problems.
-            </p>
-          </Content>
-          <Content id="GWC">
-            <h2>Girls Who Code</h2>
-            <p>
-            A Coalition of female students who are passionate about computer 
-            science and want to share their knowledge with others.
-            </p>
-          </Content>
-          <Content id="ACSL">
-            <h2>ACSL Study</h2>
-            <p>
-            A Club that prepares students for the American Computer Science 
-            League (ACSL) competition.
+            Montgomery Blair's branch of the satellite project. The Poolesville branch emerged from the Montgomery
+            Blair branch.
             </p>
           </Content>
         </div>

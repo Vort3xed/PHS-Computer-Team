@@ -89,15 +89,15 @@ function Video() {
       <div className={styles.content}>
         {documentWidth >= 600 ? (
           <>
-            <Heading src="explore" text="Explore." />
-            <Heading src="learn" text="Learn." />
-            <Heading src="code" text="Code." />
+            <Heading src="explore" text="Learn." />
+            <Heading src="learn" text="Code." />
+            <Heading src="code" text="Compete." />
           </>
         ) : (
           <>
-            <h1>Design.</h1>
-            <h1>Develop.</h1>
+            <h1>Learn.</h1>
             <h1>Code.</h1>
+            <h1>Compete.</h1>
           </>
         )}
       </div>

@@ -39,39 +39,50 @@ function Explore() {
   return (
     <div ref={ref} className={`${Styles.row} mt-40 fadeonscroll`}>
       <div className={`${Styles.col} ${Styles.col40}`}>
-        <h2 className={Styles.header}>Explore.</h2>
+        <h2 className={Styles.header}>Learn.</h2>
         <img className={`${Styles.headerImage} mt-2 `} src="/gallery/gallery1.jpg" alt="compteam" />
       </div>
       <div className={`${Styles.col} ${Styles.col60}`}>
         <div className={Styles.headDescription}>
-          Splitting the huge field of computer science into smaller parts, we work with serveral others
-          computer science clubs at PHS to help students find their true passions.
+        Computer science is a broad field of study, and our club structure is designed to reflect that. 
+        We have five sub-clubs targeting different divisions of computer science. 
         </div>
         <div className={Styles.contentContainer}>
           <div className={Styles.content}>
-            <h2>Cyber Lab</h2>
+            <h2>Cyberlab</h2>
             <p>
-              Through hands on experiments and labs, this club teaches students about the basics of cybersecurity 
-              and how to protect themselves and others online.
+            In Cyberlab, we will be learning everything cybersecurity. This includes defending systems 
+            by rectifying vulnerabilities (defense), compromising vulnerabilities in external systems 
+            (attack), protecting transactions between computer systems (networking), and more. 
             </p>
           </div>
           <div className={Styles.content}>
-            <h2>ML Club</h2>
+            <h2>Machine Learning</h2>
             <p>
-              A club designed to teach students about machine learning and how to use it to solve real world problems.
-              Using Python, students learn about the basics of machine learning and how to use it to solve real world problems.
+            In our machine learning sub club, you will learn the basics of ML, starting from the bottom up. 
+            We will start with concepts as simple as linear regression, and work our way up to more 
+            “complicated” algorithms, like convolutional neural networks.
+            </p>
+          </div>
+          <div className={Styles.content}>
+            <h2>Competitive Programming</h2>
+            <p>
+            The competitive programming sub club will teach you everything you need to know to prepare 
+            for computer science competitions like the American Computer Science League and the USA Computing Olympiad.
             </p>
           </div>
           <div className={Styles.content}>
             <h2>Girls Who Code</h2>
             <p>
-              A Coalition of female students who are passionate about computer science and want to share their knowledge with others.
+            Girls Who Code strives to bridge the gender gap in computer science by creating a welcoming space where 
+            individuals of all experiences and backgrounds are welcome. 
             </p>
           </div>
           <div className={Styles.content}>
-            <h2>ACSL Study</h2>
+            <h2>Website Development</h2>
             <p>
-              A Club that prepares students for the American Computer Science League (ACSL) competition.
+            Our web development sub club will focus on the fundamentals of designing and programming websites. 
+            You will learn JavaScript, HTML, CSS, and potentially more.
             </p>
           </div>
         </div>
@@ -102,25 +113,35 @@ function Learn() {
   return (
     <div ref={ref} className={`${Styles.row} mt-40 fadeonscroll sm:mt-4`}>
       <div className={`${Styles.col} ${Styles.col40}`}>
-        <h2 className={Styles.header}>Learn.</h2>
+        <h2 className={Styles.header}>Code.</h2>
         <img className={`${Styles.headerImage} mt-2 `} src="/gallery/gallery1.jpg" alt="compteam" />
       </div>
       <div className={`${Styles.col} ${Styles.col60}`}>
         <div className={Styles.headDescription}>
-          Not only will you learn to apply your skills to real world problems, but you will also gain the 
-          opportunity to use your skills and develop large projects.
+        You will be given the opportunity to apply what you learn in the computer team to a number of 
+        exciting individual, group, and whole club projects. The projects we will be working on this year include:
         </div>
         <div className={Styles.contentContainer}>
           <div className={Styles.content}>
-            <h2>Blair3 Sat</h2>
+            <h2>MAGNET3SAT</h2>
             <p>
-              Help develop a satellite that will be launched into space to collect data on the Earth&apos;s atmosphere.
+            A joint venture between Poolesville and Montgomery Blair High School in which we aim to design, 
+            construct, and launch a satellite into orbit. The satellite has two objectives: 1) to examine 
+            the interaction of radio waves with the ionosphere and 2) to map electron density in the ionosphere. 
             </p>
           </div>
           <div className={Styles.content}>
-            <h2>Physics</h2>
+            <h2>Physics Simulations</h2>
             <p>
-              Work with the physics team to develop solutions to real world physics problems. 
+            We will be collaborating with the PHS physics team to apply machine learning to simulated environments, 
+            like teaching a machine learning model how to keep a ball balanced in equilibrium using motors. 
+            </p>
+          </div>
+          <div className={Styles.content}>
+            <h2>CTFalcon</h2>
+            <p>
+            This year, Poolesville aims to organize its own Capture the Flag (CTF) competition that will be designed 
+            to test participants on their knowledge of cybersecurity, computer theory, and machine learning concepts. 
             </p>
           </div>
         </div>
@@ -150,32 +171,37 @@ function Code() {
   return (
     <div ref={ref} className={`${Styles.row} mt-40 fadeonscroll sm:mt-4`}>
       <div className={`${Styles.col} ${Styles.col40}`}>
-        <h2 className={Styles.header}>Code.</h2>
+        <h2 className={Styles.header}>Compete.</h2>
         <img className={`${Styles.headerImage} mt-2 `} src="/gallery/gallery1.jpg" alt="compteam" />
       </div>
       <div className={`${Styles.col} ${Styles.col60}`}>
         <div className={Styles.headDescription}>
-          Now that we&apos;ve given you the skills to succeed, its time for you to show them
-          off and compete in competitions. We offer a variety of competitions for you to
-          compete in.
+        You will be given the opportunity to apply the skills and knowledge you gain in the computer 
+        team to compete in a number of regional, national, and international computer science competitions. 
+        The three large competitions that PHS Computer Team participates in are:
         </div>
         <div className={Styles.contentContainer}>
           <div className={Styles.content}>
             <h2>CyberPatriot</h2>
             <p>
-              A national cybersecurity competition that teaches students about the basics of cybersecurity and how to protect themselves and others online.
+            A competition in which you will be tasked with identifying and repairing cybersecurity 
+            vulnerabilities in virtual operating systems.
             </p>
           </div>
           <div className={Styles.content}>
             <h2>USACO</h2>
             <p>
-              The USA Computing Olympiad is a national computer science competition that tests students on their ability to solve problems using algorithms and data structures.
+            USACO holds periodic online contests on programming using optimizing algorithms and data 
+            structures. Participating in this competition gives you the opportunity to be selected to 
+            represent the US at the International Olympiad in Informatics.
             </p>
           </div>
           <div className={Styles.content}>
             <h2>ACSL</h2>
             <p>
-              The American Computer Science League is a national computer science competition that tests students on their ability to solve problems using algorithms and data structures.
+            An international competition consisting of 4 contests, each with a short answer and programming 
+            section. Both will be used to test your knowledge of computer science theory, and your ability 
+            to apply these concepts in programming.
             </p>
           </div>
         </div>

@@ -4,7 +4,7 @@ import BasicGridImages from '@/components/gridGallery/BasicGridImages';
 import Associations from '../components/associations/Associations';
 import HomeAbout from '../components/homeAbout/HomeAbout';
 import Screen from '../components/screen/Screen';
-import Sponsors from '../components/sponsors/Sponsors';
+// import Sponsors from '../components/sponsors/Sponsors';
 import TechStack from '../components/techStack/TechStack';
 import Video from '../components/video/Video';
 
@@ -28,7 +28,7 @@ export default function Home() {
       <HomeAbout />
       <TechStack />
       <BasicGridImages />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Associations />
     </Screen>
   );
